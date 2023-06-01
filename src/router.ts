@@ -30,6 +30,14 @@ export const router = new Router({
           lazy(() => import('./pages/app-about/app-about.js')),
         ],
         render: () => html`<app-about></app-about>`
+      },
+      {
+        path: '/notes',
+        title: 'notes',
+        plugins: [
+          lazy(() => import('./pages/notes.js')),
+        ],
+        render: () => html`<app-notes></app-notes>`
       }
     ]
   });

@@ -1,7 +1,7 @@
 {
-  "name": "pwa-starter",
+  "name": "kemo-tvt",
   "version": "0.0.1",
-  "description": "A starter kit for building PWAs!",
+  "description": "you can now be way more efficent!",
   "main": "index.js",
   "scripts": {
     "dev-server": "vite --open",
@@ -24,6 +24,9 @@
     "workbox-precaching": "^6.5.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
     "typescript": "^5.0.4",
     "vite": "^4.2.1",
     "vite-plugin-pwa": "^0.14.7"
